@@ -37,7 +37,7 @@ const NavBar = () => {
     },
   ]
   return (
-    <div className="w-full bg-slate-200 fixed">
+    <div className="w-full bg-slate-200 fixed z-50">
       <div className="flex justify-between items-center max-w-screen-2xl h-14 m-auto text-black">
         <div className="text-2xl font-semibold ml-3 cursor-pointer">
           <Link to="#" smooth duration={500}>
@@ -48,7 +48,7 @@ const NavBar = () => {
           {links.map(({ id, link, name }) => (
             <li
               key={id}
-              className="p-4 mx-3 cursor-pointer uppercase hover:scale-105 hover:text-gray-600 duration-200"
+              className="p-4 mx-2 cursor-pointer uppercase hover:scale-105 hover:text-gray-600 duration-200"
             >
               <Link to={link} smooth duration={500}>
                 {name}
@@ -67,7 +67,7 @@ const NavBar = () => {
             {links.map(({ id, link, name }) => (
               <li
                 key={id}
-                className="px-4 cursor-pointer uppercase py-4 text-3xl"
+                className="px-4 cursor-pointer uppercase py-4 text-2xl"
               >
                 <Link
                   onClick={() => setNav(!nav)}
