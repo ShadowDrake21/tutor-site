@@ -34,3 +34,18 @@ export const disciplines = [
     img: 'https://e1.pxfuel.com/desktop-wallpaper/788/61/desktop-wallpaper-565839-1600x1200-for-physics-and-chemistry-aesthetic-science.jpg',
   },
 ]
+
+export const priceFeatures = [
+  'Онлайн-навчання',
+  'Гнучкий розклад',
+  'Позитивні відгуки',
+  'Індивідуальний підхід до кожного',
+  'Перевірена методика',
+  '1 заняття = 1 година',
+]
+
+export const priceCirclesInfo = [
+  { main: '20+', text: 'років досвіду викладання' },
+  { main: '300+', text: 'задоволених учнів' },
+  { main: '95%', text: 'учнів здают ЗНО на високий бал' },
+]

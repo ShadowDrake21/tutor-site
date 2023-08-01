@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div
       name="disciplines"
-      className="py-10 bg-zinc-50 border-gray-100 border-t border-b md:py-16"
+      className="py-5 bg-zinc-50 border-gray-100 border-t md:py-10"
     >
       <Title text="Дисципліни" />
       <div className="flex flex-col items-center gap-y-5 sm:gap-y-8">
