@@ -1,0 +1,26 @@
+.slick-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: black;
+  transition: all 0.2s;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: darkgray;
+  outline: none;
+  background: transparent;
+}

@@ -6,6 +6,7 @@ import Services from './components/Services'
 import photo from './assets/about__photo.jpg'
 import { text } from './assets/changeData'
 import Price from './components/Price'
+import Reviews from './components/Reviews'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About texts={text} photo={photo} />
       <Services />
       <Price />
+      <Reviews />
     </div>
   )
 }
