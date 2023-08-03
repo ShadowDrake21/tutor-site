@@ -8,7 +8,7 @@ const Carousel = ({ children: reviewsItem }) => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
   }
