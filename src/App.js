@@ -7,6 +7,7 @@ import photo from './assets/about__photo.jpg'
 import { text } from './assets/changeData'
 import Price from './components/Price'
 import Reviews from './components/Reviews'
+import Contacts from './components/Contacts'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Price />
       <Reviews />
+      <Contacts />
     </div>
   )
 }
