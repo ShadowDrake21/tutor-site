@@ -7,7 +7,7 @@ const ContactsMedia = ({ icon, link }) => {
         <img
           src={icon}
           alt="icon"
-          className="w-14 h-14 object-cover rounded-lg border border-gray-400"
+          className="w-10 h-10 object-cover rounded-lg border border-gray-400 sm:w-14 sm:h-14"
         />
       </a>
     </div>

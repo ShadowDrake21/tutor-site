@@ -5,14 +5,9 @@ const ContactsForm = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm()
   const onSubmit = (data) => console.log(data)
-
-  console.log(watch('example'))
-
-  console.log(errors)
 
   const errorRender = (text) => {
     return <p className="text-red-500 font-bold">{text}</p>
@@ -66,7 +61,7 @@ const ContactsForm = () => {
       {errorRender(errors.messageField?.message)}
       <input
         type="submit"
-        className="px-5 py-3 rounded-md bg-gray-500 border border-gray-500 text-white font-bold text-lg cursor-pointer  hover:bg-slate-300 duration-200 hover:text-gray-600"
+        className="px-5 py-3 rounded-md bg-gray-500 border border-gray-500 text-white font-bold text-base cursor-pointer  hover:bg-slate-300 duration-200 hover:text-gray-600 sm:text-lg"
       />
     </form>
   )

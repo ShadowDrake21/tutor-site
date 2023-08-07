@@ -9,9 +9,9 @@ import phone from '../assets/phone.png'
 
 const Contacts = () => {
   return (
-    <div className="py-10 px-2 md:py-16">
+    <div name="contacts" className="py-10 px-2 md:py-16">
       <Title text="Контакти" />
-      <div className="max-w-screen-lg flex justify-between bg-zinc-50 border rounded-2xl border-gray-100 mx-auto px-5 py-8">
+      <div className="max-w-screen-lg flex justify-between bg-zinc-50 border rounded-2xl border-gray-100 mx-auto px-3 py-5 flex-col items-center gap-y-5 sm:px-5 sm:py-8 md:flex-row md:gap-0">
         <div className="max-w-lg w-full flex items-center flex-col justify-center">
           <h4 className="text-center text-lg uppercase mb-2 md:mb-3 md:text-xl lg:mb-4">
             Де можна мене знайти?
