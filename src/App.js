@@ -8,10 +8,11 @@ import { text } from './assets/changeData'
 import Price from './components/Price'
 import Reviews from './components/Reviews'
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col h-screen justify-between">
       <NavBar />
       <Header link="reviews" />
       <About texts={text} photo={photo} />
@@ -19,6 +20,7 @@ function App() {
       <Price />
       <Reviews />
       <Contacts />
+      <Footer />
     </div>
   )
 }
