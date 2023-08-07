@@ -8,7 +8,7 @@ const Reviews = () => {
   return (
     <div
       name="reviews"
-      className="max-w-xl py-10 px-2 mx-auto bg-white md:py-16"
+      className="max-w-xs py-10 px-2 mx-auto bg-white esm:max-w-md sm:max-w-xl md:py-16"
     >
       <Title text="Відгуки" />
 
