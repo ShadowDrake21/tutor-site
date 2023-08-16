@@ -1,14 +1,14 @@
-import Header from './components/Header'
-import NavBar from './components/NavBar'
-import About from './components/About'
-import Services from './components/Services'
+import Header from './components/HeaderComponent/Header'
+import NavBar from './components/HeaderComponent/NavBar'
+import About from './components/AboutComponent/About'
+import Services from './components/ServicesComponent/Services'
+import Price from './components/PriceComponent/Price'
+import Reviews from './components/ReviewsComponent/Reviews'
+import Contacts from './components/ContactsComponent/Contacts'
+import Footer from './components/FooterComponent/Footer'
 
 import photo from './assets/about__photo.jpg'
 import { text } from './assets/changeData'
-import Price from './components/Price'
-import Reviews from './components/Reviews'
-import Contacts from './components/Contacts'
-import Footer from './components/Footer'
 
 function App() {
   return (

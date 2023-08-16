@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaTimes, FaBars } from 'react-icons/fa'
 import { Link } from 'react-scroll'
-import { links } from '../assets/changeData'
+import { links } from '../../assets/changeData'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)

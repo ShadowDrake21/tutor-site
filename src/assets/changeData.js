@@ -32,37 +32,29 @@ export const links = [
 ]
 
 export const text = [
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto eos consequatur perspiciatis, impedit magnam quis et unde fugit harum provident pariatur nesciunt iure? Quisquam delectus ea sunt illo dignissimos mollitia asperiores ipsum accusamus non, nulla pariatur? Quae quisquam accusantium tenetur, porro eos odio tempora quod deserunt debitis, suscipit praesentium?',
-  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo animi aperiam aliquam consequatur similique ex libero, accusamus nam quis totam enim aut quia sit architecto? Aspernatur doloribus perspiciatis laborum eaque officia cumque rerum exercitationem. Quidem facere quisquam doloremque ullam expedita?',
-  'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, atque.',
+  'Я вчитель хімії та біології з 20-річним досвідом. Проводжу заняття з учнями різних рівнів, студентами медичних закладів. Підготовка до ЗНО/НМТ проходить згідно програми, затвердженої Міністерством освіти України.',
+  'На іспитах з хімії та біології учні мають результат від 185 балів. Для кожного учня розробляю індивідуальні завдання.',
+  'Для розуміння і успішного засвоєння матеріалу використовую різні схеми, таблиці, графіки.',
 ]
 
 export const disciplines = [
   {
     name: 'Біологія',
     topics:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo animi aperiam aliquam consequatur similique ex libero, accusamus nam quis totam enim aut quia sit architecto?',
+      'Генетика, ботаніка, зоологія, анатомія, фізіологія, молекулярна біологія, екологія.',
     studentTypes: [
-      '5-11 класи - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto eos consequatur perspiciatis, impedit magnam quis et unde fugit harum provident pariatur nesciunt iure?',
-      'Студенти - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto eos consequatur perspiciatis, impedit magnam quis et unde fugit harum provident pariatur nesciunt iure?',
+      '5-11 класи - підвищення успішності, написання контрольних робіт, підготовка до олімпіад, ЗНО/НМТ.',
+      'Студенти - допомога з лабораторними та практичних роботами, іспитів.',
     ],
     img: 'https://wallpaperaccess.com/full/1267776.jpg',
   },
   {
-    name: 'Анатомія',
-    topics:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo animi aperiam aliquam consequatur similique ex libero, accusamus nam quis totam enim aut quia sit architecto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, atque.',
-    studentTypes: [
-      '5-11 класи - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto eos consequatur perspiciatis, impedit magnam quis et unde fugit harum provident pariatur nesciunt iure?',
-    ],
-    img: 'https://images.squarespace-cdn.com/content/v1/5592e3fae4b035267ffd5cec/1499983125282-AP8G4UJFN0VPA3SAP42M/Kens+1+vitruvian+man+lrg+3.jpg?format=500w',
-  },
-  {
     name: 'Хімія',
     topics:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo animi aperiam aliquam consequatur similique ex libero',
+      'Загальна хімія, неорганічна хімія, органічна хімія, аналітична хімія.',
     studentTypes: [
-      '5-11 класи - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto eos consequatur perspiciatis, impedit magnam quis et unde fugit harum provident pariatur nesciunt iure?',
+      '7-11 класи - допомога з контрольними роботами, підготовка до олімпіад, ЗНО/НМТ.',
+      'Студенти - допомога в написанні та підготовці до лабораторних та практичних робіт, іспитів.',
     ],
     img: 'https://e1.pxfuel.com/desktop-wallpaper/788/61/desktop-wallpaper-565839-1600x1200-for-physics-and-chemistry-aesthetic-science.jpg',
   },
@@ -75,12 +67,13 @@ export const priceFeatures = [
   'Індивідуальний підхід до кожного',
   'Перевірена методика',
   '1 заняття = 1 година',
+  '100% результат',
 ]
 
 export const priceCirclesInfo = [
   { main: '20+', text: 'років досвіду викладання' },
   { main: '300+', text: 'задоволених учнів' },
-  { main: '95%', text: 'учнів здают ЗНО на високий бал' },
+  { main: '100%', text: 'учнів здают ЗНО на високий бал' },
 ]
 
 export const reviews = [

@@ -1,11 +1,11 @@
 import React from 'react'
 import ContactsForm from './ContactsForm'
 import ContactsMedia from './ContactsMedia'
-import Title from './Title'
+import Title from '../utilComponents/Title'
 
-import buki from '../assets/buki.png'
-import facebook from '../assets/facebook.png'
-import phone from '../assets/phone.png'
+import buki from '../../assets/buki.png'
+import facebook from '../../assets/facebook.png'
+import phone from '../../assets/phone.png'
 
 const Contacts = () => {
   return (
