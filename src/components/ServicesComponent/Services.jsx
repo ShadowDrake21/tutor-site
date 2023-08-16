@@ -1,7 +1,7 @@
 import React from 'react'
-import Title from '../utilComponents/Title'
 import { disciplines } from '../../assets/changeData'
 import ServicesItem from './ServicesItem'
+import Title from '../utilComponents/Title'
 
 const Services = () => {
   return (

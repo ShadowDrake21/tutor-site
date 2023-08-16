@@ -1,5 +1,5 @@
-import Header from './components/Header/Header'
-import NavBar from './components/Header/NavBar'
+import Header from './components/HeaderComponent/Header'
+import NavBar from './components/HeaderComponent/NavBar'
 import About from './components/AboutComponent/About'
 import Services from './components/ServicesComponent/Services'
 import Price from './components/PriceComponent/Price'
