@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { links } from '../assets/changeData'
+import { links } from '../../assets/changeData'
 
 const Footer = () => {
   return (

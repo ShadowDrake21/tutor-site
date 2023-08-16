@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './Title'
-import { disciplines } from '../assets/changeData'
+import Title from '../utilComponents/Title'
+import { disciplines } from '../../assets/changeData'
 import ServicesItem from './ServicesItem'
 
 const Services = () => {

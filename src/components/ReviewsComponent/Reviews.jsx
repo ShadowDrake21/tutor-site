@@ -1,8 +1,8 @@
 import React from 'react'
-import Title from './Title'
+import Title from '../utilComponents/Title'
 import ReviewsItem from './ReviewsItem'
 import Carousel from './Carousel'
-import { reviews } from '../assets/changeData'
+import { reviews } from '../../assets/changeData'
 
 const Reviews = () => {
   return (

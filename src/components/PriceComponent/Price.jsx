@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './Title'
-import { priceCirclesInfo, priceFeatures } from '../assets/changeData'
+import Title from '../utilComponents/Title'
+import { priceCirclesInfo, priceFeatures } from '../../assets/changeData'
 import PriceFeature from './PriceFeature'
 import PriceCircle from './PriceCircle'
 
@@ -22,7 +22,7 @@ const Price = () => {
             <h3 className="font-bold text-lg">Ціна</h3>
             <div className="text-base sm:text-lg">
               <span className="mr-4">1 заняття</span>
-              <span>150 грн</span>
+              <span>200 грн</span>
             </div>
           </div>
           <div className="flex justify-around flex-wrap gap-3 mt-7 mb-3 md:mt-10 md:mb-5">
