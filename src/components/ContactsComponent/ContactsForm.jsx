@@ -7,7 +7,7 @@ const ContactsForm = () => {
 
     emailjs
       .sendForm(
-        'service_dvtpcvr',
+        'service_ika1ldb',
         'template_z2pl0mb',
         e.target,
         '4xETli7MS9RTP4HuR'
@@ -32,12 +32,12 @@ const ContactsForm = () => {
         name="firstName"
       />
 
-      <input
+      {/* <input
         className="w-full py-3 px-2 rounded-xl bg-white border border-gray-300 text-black focus:outline-none"
         placeholder="Електронна скринька"
         autoComplete="off"
         name="emailName"
-      />
+      /> */}
 
       <input
         className="w-full py-3 px-2 rounded-xl bg-white border border-gray-300 text-black focus:outline-none"
